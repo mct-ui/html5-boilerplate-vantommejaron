@@ -27,7 +27,7 @@ img {
 }
 /* Elements: typography --- Default markup for typographic elements */
 h1 {
-  font-family: "Times new Roman", serif;
+  font-family: 'Times new Roman', serif;
   font-size: 36px;
   font-weight: normal;
   line-height: 40px;
@@ -95,19 +95,26 @@ figcaption {
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background-color: lightgrey;
-    margin: 0 0 24px;
+  border: 0;
+  height: 1px;
+  background-color: lightgrey;
+  margin: 0 0 24px;
 }
 
 a {
+  color: royalblue;
+  transition: all 0.1s ease-in-out;
+}
+
+a:visited {
+  color: blueviolet;
 }
 
 a:hover,
 a:focus {
+  color: crimson;
 }
 
-a:visited,
 a:active {
+  color: blueviolet;
 }
