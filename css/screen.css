@@ -1,19 +1,14 @@
-/*
-    Elements: Page
-    ---
-    Default markup for page level elements
-*/
+/* Elements: Page --- Default markup for page level elements */
 html {
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: sans-serif;
-    color: 111;
-    padding: 24px 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  color: 111;
+  padding: 24px 24px 0;
 }
-
-body{
-    max-width: 42em;
-    margin: 0 auto;
+body {
+  max-width: 42em;
+  margin: 0 auto;
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -22,17 +17,97 @@ body{
  * Customize the background color to match your design.
  */
 ::selection {
-    background-color: #44C8F5;
-    color: white;
-
+  background-color: #44c8f5;
+  color: white;
 }
-/*
-    Elements: Images
-    ---
-    Default markup for images to make them responsive
-*/
+/* Elements: Images --- Default markup for images to make them responsive */
 img {
-    max-width: 100%;
-    vertical-align: top;
+  max-width: 100%;
+  vertical-align: top;
+}
+/* Elements: typography --- Default markup for typographic elements */
+h1 {
+  font-family: "Times new Roman", serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0 0 48px;
 }
 
+h2 {
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+}
+
+h3 {
+  font-size: 18 px;
+  line-height: 24px;
+  margin: 0 0 24px;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 24px;
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+  margin: 0 0 24px;
+}
+
+ul,
+ol,
+blockquote {
+  padding-left: 24px;
+}
+
+li ul,
+li ol {
+  margin-bottom: 0;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+  font-family: 'Times New Roman', serif;
+}
+blockquote * {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+figcaption {
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 8px;
+  color: grey;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: lightgrey;
+    margin: 0 0 24px;
+}
+
+a {
+}
+
+a:hover,
+a:focus {
+}
+
+a:visited,
+a:active {
+}
